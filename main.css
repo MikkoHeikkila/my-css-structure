@@ -1,4 +1,19 @@
 /* ==========================================================================
+   Bootstrap breakpoints
+  // Small devices (landscape phones, 576px and up)
+  @media (min-width: 576px) { ... }
+
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) { ... }
+
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) { ... }
+
+  // Extra large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) { ... }
+   ========================================================================== */
+
+/* ==========================================================================
    General Tags
    All HTML tags that need some generic/default styling.
    No CSS classes or IDs here.
@@ -45,10 +60,16 @@ img{
 }
 
 /*---------- Lists ----------*/
-ul{
+ul,
+ol{
 
 }
 li{
+
+}
+
+/*---------- Hr ----------*/
+hr{
 
 }
 
@@ -91,13 +112,16 @@ button{
    These are used on more than one section/page/html block.
    ========================================================================== */
 
-/*---------- Margin ----------*/
-
 /*---------- Colors ----------*/
 
 /*---------- Backgrounds ----------*/
 
 /*---------- Helpers ----------*/
+.w-100{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
 
 /*------- Margins -------*/
 .mt-xs{margin-top: 15px;}
